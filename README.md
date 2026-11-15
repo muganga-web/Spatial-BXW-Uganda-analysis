@@ -28,3 +28,35 @@ The analysis includes global and local spatial autocorrelation diagnostics, spat
 ---
 
 ## Project Structure
+├── spatial_bxw_analysis.Rmd     # Main analysis (R Markdown)
+
+├── README.md
+
+└── .gitignore
+
+---
+
+## Key Outputs
+
+- Global Moran’s I diagnostic for BXW incidence
+- LISA cluster map (High-High, Low-Low, spatial outliers)
+- IDW prediction surface of banana bunch weight
+- Choropleth map of food insecurity risk tiers
+
+---
+
+## How to Reproduce
+
+1. Clone this repository
+2. Open `spatial_bxw_analysis.Rmd` in RStudio
+3. Install required packages (if needed):
+
+```r
+install.packages(c("sf", "spdep", "gstat", "ggplot2", "viridis", "dplyr"))
+
+## Author
+Kivumbi Muganga
+
+MSc Data Science (ongoing) – University of East London (UEL)
+
+Focus areas: Spatial Data Analysis, Predictive Analytics, Agricultural Research
